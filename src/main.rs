@@ -20,3 +20,10 @@ fn main() {
 fn foo () {
     println!("foo!");
 }
+
+fn bar () {
+    let x = 4;
+    let y = 10;
+    let z = x + y;
+    println!("z: {}", z);
+}
