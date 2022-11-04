@@ -1,5 +1,10 @@
+#[macro_use]
+extern crate log;
+
 fn main() {
-    println!("Hello, world!");
+    env_logger::init();
+
+    info!("starting up");
 
     let mut x = 0;
 
@@ -13,5 +18,5 @@ fn main() {
         println!("So much!");
     }
 
-    println!("Goodbye world!");
+    info!("Goodbye!");
 }
