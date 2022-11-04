@@ -1,8 +1,12 @@
 mod dev;
 mod error;
+#[macro_use]
+extern crate log;
 
 fn main() {
-    println!("Hello, world!");
+    env_logger::init();
+
+    info!("starting up");
 
     let mut x = 0;
 
@@ -12,6 +16,6 @@ fn main() {
     }
 
     if x > 7 {
-        println!("So much!");
+        info!("Goodbye!");
     }
 }
