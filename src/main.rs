@@ -1,4 +1,5 @@
 mod error;
+mod release;
 
 fn main() {
     println!("Hello, world!");
