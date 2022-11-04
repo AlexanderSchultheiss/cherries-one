@@ -5,13 +5,13 @@ fn main() {
 
     let mut x = 0;
 
-    for i in 1..10 {
+    for i in 1..8 {
         println!("At {}", i);
         x += i;
     };
 
 
-    if x > 9 {
+    if x > 7 {
         println!("So much!");
     }
 }
@@ -23,7 +23,7 @@ fn foo () {
 
 fn bar () {
     let x = 4;
-    let y = 10;
+    let y = 7;
     let z = x + y;
     println!("z: {}", z);
 }
