@@ -20,3 +20,7 @@ fn main() {
 fn foo () {
     println!("foo!");
 }
+
+fn faz() {
+    println!("faz");
+}
