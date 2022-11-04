@@ -12,4 +12,6 @@ fn main() {
     if x > 10 {
         println!("So much!");
     }
+
+    println!("Goodbye world!");
 }
