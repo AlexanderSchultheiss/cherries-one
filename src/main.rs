@@ -13,3 +13,8 @@ fn main() {
         println!("So much!");
     }
 }
+
+
+fn foo () {
+    println!("foo!");
+}
