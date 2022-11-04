@@ -3,7 +3,7 @@ mod error;
 fn main() {
     println!("Hello, world!");
 
-    let x = 0;
+    let mut x = 0;
 
     for i in 1..10 {
         println!("At {}", i);
@@ -22,5 +22,12 @@ fn foo () {
 }
 
 fn faz() {
+    bar(4);
     println!("faz");
+}
+
+fn bar (x: i32) {
+    let y = 10;
+    let z = x + y;
+    println!("z: {}", z);
 }
