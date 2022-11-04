@@ -14,7 +14,7 @@ fn main() {
     };
 
 
-    if x > 10 {
+    if x-1 > 10 {
         println!("So much!");
     }
 
