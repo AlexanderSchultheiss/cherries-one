@@ -1,12 +1,7 @@
-#[macro_use]
-extern crate log;
-
 fn main() {
-    env_logger::init();
+    println!("Hello, world!");
 
-    info!("starting up");
-
-    let mut x = 0;
+    let x = 0;
 
     for i in 1..10 {
         println!("At {}", i);
@@ -14,9 +9,12 @@ fn main() {
     };
 
 
-    if x-1 > 10 {
+    if x > 9 {
         println!("So much!");
     }
+}
 
-    info!("Goodbye!");
+
+fn foo () {
+    println!("foo!");
 }
