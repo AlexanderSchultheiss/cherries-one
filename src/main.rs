@@ -8,25 +8,23 @@ fn main() {
     for i in 1..8 {
         println!("At {}", i);
         x += i;
-    };
-
+    }
 
     if x > 7 {
         println!("So much!");
     }
 }
 
-
-fn foo () {
+fn foo() {
     println!("foo!");
 }
 
 fn faz() {
     bar(4);
-    println!("faz");
+    println!("faz: {}", 22);
 }
 
-fn bar (x: i32) {
+fn bar(x: i32) {
     let y = 7;
     let z = x + y;
     println!("z: {}", z);
